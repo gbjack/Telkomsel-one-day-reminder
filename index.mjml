@@ -44,7 +44,13 @@
       a[x-apple-data-detectors] { color: inherit !important; text-decoration:
       none !important; font-size: inherit !important; font-family: inherit
       !important;vfont-weight: inherit !important; line-height: inherit
-      !important; } @media only screen and (max-width:480px) { }
+      !important; } 
+      @media only screen and (max-width: 480px) {
+        .fluid-padding > table > tbody > tr > td {
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+        }
+      }
     </mj-style>
   </mj-head>
 
@@ -103,7 +109,7 @@
     </mj-section>
 
     <mj-section>
-      <mj-column padding="60px 30px 0 30px">
+      <mj-column padding="60px 30px 0 30px" css-class="fluid-padding">
         <mj-text
           font-family="Roboto, sans-serif"
           font-size="16px"
@@ -169,7 +175,7 @@
     </mj-section>
 
     <mj-section>
-      <mj-column padding="0 30px 30px 30px">
+      <mj-column padding="0 30px 30px 30px" css-class="fluid-padding">
         <mj-text>
           <mj-table
             style="
@@ -299,7 +305,7 @@
     </mj-section>
 
     <mj-section>
-      <mj-column padding="0 30px 30px 30px">
+      <mj-column padding="0 30px 30px 30px" css-class="fluid-padding">
         <mj-text
           font-family="Roboto, sans-serif"
           font-size="16px"
@@ -333,7 +339,7 @@
     </mj-section>
 
     <mj-section>
-      <mj-column padding="0 30px 60px 30px">
+      <mj-column padding="0 30px 60px 30px" css-class="fluid-padding">
         <mj-text
           font-family="Roboto, sans-serif"
           font-size="16px"
@@ -347,7 +353,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section padding="0 30px 60px 30px">
+    <mj-section padding="0 30px 60px 30px" css-class="fluid-padding">
       <mj-column>
         <mj-text
           font-family="Roboto, sans-serif"
